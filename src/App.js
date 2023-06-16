@@ -1,11 +1,9 @@
 import React from 'react';
-import ProfilePage from './UserHistory.tsx';
+import ProfilePage from './ProfilePage.tsx';
 
 function App() {
   return (
-    <div>
       <ProfilePage />
-    </div>
   );
 }
 

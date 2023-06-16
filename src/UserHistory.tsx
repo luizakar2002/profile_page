@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './UserHistory.css';
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
+import { deepOrange, deepPurple } from '@mui/material/colors';
+
 
 interface MatchRowProps {
   player1: string;
@@ -51,6 +53,7 @@ const ProfilePage: React.FC = () => {
           <div className="section matches-section">
             <h2>Matches</h2>
             <div className="matches-list">
+            <Avatar sx={{ bgcolor: deepPurple[500] }}>OP</Avatar>
               <MatchRow player1="Joe" score1="7" player2="Tom" score2="8" />
               <MatchRow player1="Joe" score1="6" player2="Anna" score2="2" />
               <MatchRow player1="Joe" score1="2" player2="Karen" score2="6" />
