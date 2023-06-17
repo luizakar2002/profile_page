@@ -1,9 +1,9 @@
 import React from 'react';
-import ProfilePage from './ProfilePage.tsx';
+import PublicProfile from './PublicProfile.tsx';
 
 function App() {
   return (
-      <ProfilePage />
+      <PublicProfile />
   );
 }
 
