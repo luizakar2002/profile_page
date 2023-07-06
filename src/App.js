@@ -1,9 +1,21 @@
+// import React from 'react';
+// import Home from './Home.tsx';
+
+// function App() {
+//   return (
+//       <Home />
+//   );
+// }
+
+// export default App;
+
+
 import React from 'react';
-import PublicProfile from './PublicProfile.tsx';
+import SignIn from './SignIn.tsx';
 
 function App() {
   return (
-      <PublicProfile />
+      <SignIn />
   );
 }
 
